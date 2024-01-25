@@ -1,12 +1,12 @@
 # C64-Shortboard-and-C128-RF-Replacement-V2
 
-![Board](https://github.com/TheRetroChannel/Commodore-64-Shortboard-and-C128-RF-Replacement-V2/blob/main/Images/RF%20V2%20SB128.jpg)
+![Board](https://github.com/TheRetroChannel/Commodore-64-Shortboard-and-C128-RF-Replacement-V2/blob/main/images/RF%20V2%20SB128.jpg)
 
 The RF modulator in the C64/128 handles amplification and filtering for all video signals (including the ones on the C64 DIN connector). Unfortunately it does a very poor job and this is even more apparent with modern displays and upscalers, even CRTs with their inherent softening can reveal issues with the original RF modulator. One way to signifcantly improve the video output is to replace the RF modulator with a more modern and finely tuned solution, and why not add a few quality of life features while were at it.
 
 This is an RF modulator replacement (RF delete) for the shortboard Commodore 64 ASSY 250469 and Commodore 128
 
-For ASSY KU-14194HB, 250407, 250425 and 250466 see [C64 Longboard RF replacement V2](https://github.com/TheRetroChannel/C64-Longboard-RF-Replacement-V2). 
+For ASSY KU-14194HB, 250407, 250425 and 250466 see [C64 Longboard RF replacement V2](https://github.com/TheRetroChannel/Commdore-64-RF-replacement-Longboard-V2). 
 
 Note ASSY 326298 is not compatible with either of these RF modulator replacements but there are some [simple mods](https://youtu.be/agDFLPP9yIw) that can improve the video output of this revision.
 
@@ -36,7 +36,7 @@ A YouTube build and installation video is available [HERE](https://youtu.be/t5yx
 
 ## Comparison shots
 
-![64 comparison](https://github.com/TheRetroChannel/Commodore-64-Shortboard-and-C128-RF-Replacement-V2/blob/main/Images/COMPARISONS%20250407%20PAL.png)
+![64 comparison](https://github.com/TheRetroChannel/Commodore-64-Shortboard-and-C128-RF-Replacement-V2/blob/main/images/COMPARISONS%20250407%20PAL.png)
  
 ## Gathering components
 The easiest way to order PCBs is through the shared project page on PCBWay.
@@ -49,14 +49,14 @@ Once added to your cart, scroll down to find the **Remove product No.** option a
 
 Note PCBWay give me a small credit when ordering using the shared project pages.
 
-The [BoM](Files/BOM_C128_C128DCR_C64_Shortboard_RF_V2.xlsx) lists all components required and also includes friendly part names and example part links from AliExpress and Mouser for ease of ordering. Most are generic components so you can use your preferred parts supplier, but the recessed S-Video connector is a very specific type and hard to find outside of AliExpress.
+The [BoM](files/BOM_C128_C128DCR_C64_Shortboard_RF_V2.xlsx) lists all components required and also includes friendly part names and example part links from AliExpress and Mouser for ease of ordering. Most are generic components so you can use your preferred parts supplier, but the recessed S-Video connector is a very specific type and hard to find outside of AliExpress.
 
 ## Build
 Component values are printed on the front side of the PCB under the part itself (where possible) this was done to ease the build process while still giving a "clean" look once the board has been populated. I prefer to start by soldering the flat components (diodes, resistors) and then the taller ones (capacitors, transistors, switch, AV connectors).
 
 Once all topside components have been soldered into place, install the 4 individual and 2 rows of 4 pin headers on the underside. For the rows of 4 it is recommeneded to only solder one pin, then check their alignment to make sure they are straight before soldering the remaining 3 pins. If you solder them all at once, it will be very hard to straighten them afterwards. 
 
-Cut up another 4 individual headers and pull the black plastic spacers off with some pliers. Push these spacers onto each of the individual pin headers on the underside of the RF board. ![SPACERS](https://github.com/TheRetroChannel/Commodore-64-Shortboard-and-C128-RF-Replacement-V2/blob/main/Images/C64C%20SPACERS.jpg)
+Cut up another 4 individual headers and pull the black plastic spacers off with some pliers. Push these spacers onto each of the individual pin headers on the underside of the RF board. ![SPACERS](https://github.com/TheRetroChannel/Commodore-64-Shortboard-and-C128-RF-Replacement-V2/blob/main/images/C64C%20SPACERS.jpg)
 
 ## Install
 Remove the original RF modulator, there are 4 tabs that need to be straightened and 8 signal connections to be desoldered - be very careful with these as they are easily damaged if not desoldered properly!
@@ -89,7 +89,8 @@ Adjust the potentiometer to obtain the ideal contrast. Too low and the white wil
 This is a low pass filter designed to lessen the jailbar effect on Commodore 128 machines (or C64 if you have bad jailbars). A 1nF ceramic capacitor can be added at C1 but it is recommended to experiment with this before soldering into place. 
 
 With the 128 powered on (mind the nearby PSU in the DCR version), insert the capacitor so the legs touch both holes of C1 without touching the mainboard underneath. You should observe a noticeable reduction in jailbars with the capacitor inserted, but this comes at the expense of overall sharpness. It is recommended to load up your favourite program and see which look you prefer. Personally I prefer to leave it out but you do you.
-![128FILTER](https://github.com/TheRetroChannel/Commodore-64-Shortboard-and-C128-RF-Replacement-V2/blob/main/Images/C128%20FILTER%20COMPARISON.png)
+![128FILTER](https://github.com/TheRetroChannel/Commodore-64-Shortboard-and-C128-RF-Replacement-V2/blob/main/images/C128%20FILTER%20COMPARISON.png)
+
 
 **Marvel at the beauty of your Commodore, force your friends, relatives, and random people on the internet to do the same.**
 
