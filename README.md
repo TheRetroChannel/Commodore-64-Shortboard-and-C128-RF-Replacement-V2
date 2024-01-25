@@ -45,7 +45,7 @@ The easiest way to order PCBs is through the shared project page on PCBWay.
 
 **For Commodore 128DCR (metal case) use [this link](https://www.pcbway.com/project/shareproject/Commodore_128DCR_metal_case_only_RF_Modulator_Replacement_V2_75604b06.html)**
 
-Once added to your cart, scroll down to find the **Remove product No.** option and select **Specify a location**. PCBWay should then print their product number under the 3.5mm audio jack. You should be safe to leave all other options as the default ie. 2 layer FR-4, 1.6mm board thickness, HASL with lead, etc. Alternatively you can download the [gerber files](Files)
+Once added to your cart, scroll down to find the **Remove product No.** option and select **Specify a location**. PCBWay should then print their product number under the 3.5mm audio jack. You should be safe to leave all other options as the default ie. 2 layer FR-4, 1.6mm board thickness, HASL with lead, etc. Alternatively you can download the [gerber files](files)
 
 Note PCBWay give me a small credit when ordering using the shared project pages.
 
