@@ -1,6 +1,4 @@
-# C64-Shortboard-and-C128-RF-Replacement-V2
-
-Please note I have created a new RF replacement that further improves on this design. Currently it is only available through my [Tindie store](https://www.tindie.com/products/theretrochannel/arrgh-eff-off-rfoff-commodore-64-and-128/).
+## This project has been superseded by the [RFOFF](https://www.tindie.com/products/36736/) and no further updates or support will be provided. You are welcome to build this RF replacement but I would highly recommend the RFOFF which provides a much better output.
 
 ![Board](https://github.com/TheRetroChannel/Commodore-64-Shortboard-and-C128-RF-Replacement-V2/blob/main/images/RF%20V2%20SB128.jpg)
 
@@ -11,8 +9,6 @@ This is an RF modulator replacement (RF delete) for the shortboard Commodore 64 
 For ASSY KU-14194HB, 250407, 250425 and 250466 see [C64 Longboard RF replacement V2](https://github.com/TheRetroChannel/Commdore-64-RF-replacement-Longboard-V2). 
 
 Note ASSY 326298 is not compatible with either of these RF modulator replacements but there are some [simple mods](https://youtu.be/agDFLPP9yIw) that can improve the video output of this revision.
-
-You can purchase preassembled boards on my [Tindie store](https://www.tindie.com/stores/theretrochannel/)
 
 A YouTube build and installation video is available [HERE](https://youtu.be/t5yx6tAaMuE)
 
