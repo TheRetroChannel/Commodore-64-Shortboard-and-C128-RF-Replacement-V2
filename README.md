@@ -1,4 +1,4 @@
-## This project has been superseded by the [RFOFF](https://www.tindie.com/products/36736/) and no further updates or support will be provided. You are welcome to build this RF replacement but I would highly recommend the RFOFF which provides a much better output.
+## This project has been superseded by the [RFOFF](https://lectronz.com/products/rfoff-c64-c128) and no further updates or support will be provided. You are welcome to build this RF replacement but I would highly recommend the RFOFF which provides a much better output.
 
 ![Board](https://github.com/TheRetroChannel/Commodore-64-Shortboard-and-C128-RF-Replacement-V2/blob/main/images/RF%20V2%20SB128.jpg)
 
